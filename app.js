@@ -6,7 +6,7 @@ function doSomething() {
 	canvas.height = window.innerHeight;
 	const h = canvas.height;
 	const w = canvas.width;
-	ctx.fillStyle = "rgb(36,41,40)";
+	ctx.fillStyle = "rgb(40,45,48)";
 	ctx.strokeStyle = "white";
 	ctx.shadowOffsetX = 10;
 	ctx.shadowOffsetY = 10;
