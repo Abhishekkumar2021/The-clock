@@ -32,7 +32,7 @@ function doSomething() {
 		ctx.fill();
 		ctx.closePath();
 
-		ctx.font = "36px Roboto Mono";
+		ctx.font = `${r / 15}px Roboto Mono`;
 		ctx.fillStyle = "pink";
 		for (let i = 0; i < 12; i++) {
 			let w = r / 50;
@@ -50,7 +50,7 @@ function doSomething() {
 		}
 		ctx.fillText(
 			`${hours}:${minutes}:${seconds}:${milliseconds}`,
-			-100,
+			-r / 6,
 			r / 1.8
 		);
 		ctx.beginPath();
