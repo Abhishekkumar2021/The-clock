@@ -2,8 +2,8 @@ const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 let isFirstTime = true;
 function doSomething() {
-	canvas.width = 0.96*window.innerWidth;
-	canvas.height = 0.96*window.innerHeight;
+	canvas.width = 0.98*window.innerWidth;
+	canvas.height = 0.98*window.innerHeight;
 	const h = canvas.height;
 	const w = canvas.width;
 	ctx.fillStyle = "rgb(40,45,48)";
